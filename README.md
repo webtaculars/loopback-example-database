@@ -144,7 +144,7 @@ slc loopback:model Account
 ### 6. Create the collection with sample data - Automigration
 
 With the `account` model configured, we can generate the corresponding
-PostgreSQL table using the info from the `Account` metadata in [`common/models/account.json`](common/models/account.json)
+PostgreSQL table using the info from the `Account` metadata in [`common/models/account.json`](https://github.com/strongloop/loopback-example-database/blob/postgresql/common/models/account.json)
 via [*auto-migration*](https://docs.strongloop.com/display/public/LB/Implementing+auto-migration).
 
 Start by creating a dir to store general-purpose scripts:
@@ -153,7 +153,7 @@ Start by creating a dir to store general-purpose scripts:
 mkdir bin
 ```
 
-Inside that dir, create a script named [`automigrate.js`](bin/automigrate.js).
+Inside that dir, create a script named [`automigrate.js`](https://github.com/strongloop/loopback-example-database/blob/postgresql/bin/automigrate.js).
 To create the `Account` collection and create two sample accounts, run:
 
 ```
@@ -221,7 +221,7 @@ You should see:
 > is the process of reverse engineering a LoopBack model from an existing
 > database schema.
 
-Create a script name [`discover-schema.js`](bin/discover-schema.js). Then run this script to
+Create a script name [`discover-schema.js`](https://github.com/strongloop/loopback-example-database/blob/postgresql/bin/discover-schema.js). Then run this script to
 discover the schema from the existing `Account` table:
 
 ```
@@ -311,7 +311,7 @@ You should see:
 When retrieving the scheme is not enough, you can discover and build LoopBack
 models in one step.
 
-Create a sript named [`discover-and-build-models.js`](bin/discover-and-build-models.js).
+Create a sript named [`discover-and-build-models.js`](https://github.com/strongloop/loopback-example-database/blob/postgresql/bin/discover-and-build-models.js).
 Then run:
 
 ```
