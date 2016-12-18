@@ -246,6 +246,6 @@ Created: { email: 'bob.doe@ibm.com',
 > See the [official docs](http://loopback.io/doc/en/lb2/Creating-models-from-unstructured-data.html)
 > for more info.
 
----
+--- 
 
 [More LoopBack examples](https://github.com/strongloop/loopback-example)
